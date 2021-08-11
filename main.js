@@ -1,7 +1,7 @@
 function snapCrackle (maxValue){
     let str = ""
    for(let i = 1; i <= maxValue; i++){
-     if(i%2 !== 2 && i%5 === 0){
+     if(i%2 !== 0 && i%5 === 0){
          str += " SnapCrackle,"
      }
      else if(i%2 !== 0){
